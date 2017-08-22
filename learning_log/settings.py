@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '138=_(p2aq2n6+a%4ylmia&a#yz0-jcg^fvo@f0ds%(b=r%36@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False 
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['alvin-learning-log.herokuapp.com']
 
 
 # My settings
