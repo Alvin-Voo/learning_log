@@ -25,7 +25,7 @@ SECRET_KEY = '138=_(p2aq2n6+a%4ylmia&a#yz0-jcg^fvo@f0ds%(b=r%36@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False 
 
-ALLOWED_HOSTS = ['alvin-learning-log.herokuapp.com']
+ALLOWED_HOSTS = ['alvin-learning-log.herokuapp.com','localhost']
 
 
 # My settings
@@ -74,7 +74,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            os.path.join(BASE_DIR, 'templates'), 
+            os.path.join(BASE_DIR,'learning_log/templates'), 
         ],
         'APP_DIRS': True,
         'OPTIONS': {
