@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '138=_(p2aq2n6+a%4ylmia&a#yz0-jcg^fvo@f0ds%(b=r%36@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False 
+DEBUG = True
 
 ALLOWED_HOSTS = ['alvin-learning-log.herokuapp.com','localhost']
 
@@ -74,7 +74,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            os.path.join(BASE_DIR,'learning_log/templates'), 
+            os.path.join(BASE_DIR,'learning_log/templates'),
         ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -158,4 +158,3 @@ if os.getcwd() == '/app':
 
     # Honor the 'X-Forwarded-Proto' header for request.is_secure().
     SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
-
